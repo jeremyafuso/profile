@@ -1,0 +1,146 @@
+/* Colors and Fonts */
+
+body{
+  background: #E9EEED;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.4em;
+}
+
+h1, h2, h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  color: #575757;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a{
+  color: #41DCB5;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a:hover{
+  color: #1AD4A5;
+}
+
+/*table, th, td{
+  border: 1px solid black;
+}*/
+
+table td {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+/* First simple components */
+
+.title{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 700px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-medium{
+  background-color: #41DCB5;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.btn-medium:hover{
+  background-color: #1AD4A5;
+  color: white;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.list-inline li i{
+  font-size: 27px;
+}
+
+/* Media Queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+.poster{
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px
+}
+
+.table-align-top{
+  vertical-align: top;
+}
